@@ -33,9 +33,7 @@
    - A hook initialization thread that patches the import table to intercept `NtQuerySystemInformation`.
 5. When the target process calls `NtQuerySystemInformation` for `SystemProcessInformation`, any entries with names matching the list will be removed from the returned list.
 
----
-
-## `processes.txt` — file format & examples
+### `processes.txt` — example
 ```bash
 notepad.exe
 cmd.exe
